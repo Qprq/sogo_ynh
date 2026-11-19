@@ -39,6 +39,11 @@ ram.runtime = "200M"
     [install.domain]
     type = "domain"
 
+    [install.mail_domain]
+    type = "domain"
+    ask.en = "Main mail domain for your instance"
+    ask.fr = "Domaine principal pour les adresses mail"
+ 
     [install.path]
     type = "path"
     default = "/SOGo"
